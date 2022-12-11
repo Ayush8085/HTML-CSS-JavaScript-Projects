@@ -14,4 +14,7 @@ Some simple projects using basic HTML, CSS and JavaScript
 ## 3. One Page Layout
 **Just to learn some basics of html, css and javascript.**
 
-<img src="One%20Page%20Layout/Screenshot.png" />
+<span><img src="One%20Page%20Layout/Screenshot_home.png" width=500/></span>
+<img src="One%20Page%20Layout/Screenshot_services.png" width=500/>
+<img src="One%20Page%20Layout/Screenshot_contact.png" width=500/>
+<img src="One%20Page%20Layout/Screenshot_about.png" width=500/>
