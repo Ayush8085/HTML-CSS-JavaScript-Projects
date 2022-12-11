@@ -5,3 +5,8 @@ Some simple projects using basic HTML, CSS and JavaScript
 **CSS has been taken from codewithharry.**
 
 <img src="Calculator/Screenshot.png" width=320/>
+
+## 2. Digital Clock
+**It displays hours, minutes, seconds as well as AM/PM also.**
+
+<img src="Digital%20Clock/Screenshot.png" />
