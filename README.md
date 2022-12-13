@@ -11,7 +11,3 @@ Some simple projects using basic HTML, CSS and JavaScript
 
 <img src="Digital%20Clock/Screenshot.png" />
 
-## 3. One Page Layout
-**Just to learn some basics of html, css and javascript.**
-
-<img src="One%20Page%20Layout/Screenshot.png" />
