@@ -1,0 +1,49 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: sans-serif;
+    background: lightyellow;
+}
+
+.button {
+    background: pink;
+    padding: 20px 35px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+    border-radius: 4px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    overflow: hidden;
+}
+
+.button span {
+    position: relative;
+    z-index: 1;
+    /* Text button will be upon all the other element */
+}
+
+.button::before {
+    content: "";
+    position: absolute;
+    background: orange;
+    /* height: 20px;
+    width: 20px; */
+    height: 0px;
+    width: 0px;
+    /* left: 50%;                           /* 50% from the left of the button 
+    top: 50%;                                50% from the top of the button */
+    left: var(--xPos);                      /* Using variables so that the position can be manupulated from javascript*/
+    top: var(--yPos);
+    transform: translate(-50%, -50%);       /* This brings the center of that effect to the center */
+    border-radius: 50%;
+    transition: width 0.5s, height 0.5s;
+}
+
+.button:hover::before {
+    height: 300px;
+    width: 300px;
+}
