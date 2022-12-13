@@ -11,3 +11,7 @@ Some simple projects using basic HTML, CSS and JavaScript
 
 <img src="Digital%20Clock/Screenshot.png" />
 
+## 3. Button Ripple Effect
+**When hover on the button with the mouse, it gives a ripple effect.**
+
+![](https://github.com/Ayush8085/HTML-CSS-JavaScript-Projects/blob/master/Button%20Ripple%20Effect/button_ripple_effect.gif)
